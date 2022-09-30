@@ -45,7 +45,7 @@ func (rep GeneroRepository) Update(ID int, entity models.Genero) int {
 	db := db.DBConn
 	db.First(&entityToUpdate, ID)
 
-	result := db.Model(&entityToUpdate).Update("name", entity.Name)
+	result := db.Model(&entityToUpdate).Update("name", entity.Nombre)
 
 	return int(result.RowsAffected)
 }

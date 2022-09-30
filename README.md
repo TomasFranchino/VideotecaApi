@@ -50,3 +50,11 @@ https://github.com/swaggo/gin-swagger
 Declarativas de los endpoint que se utiliza para generar la documentacion de swagger
 https://github.com/swaggo/swag#declarative-comments-format
 
+Formateo de Fecha/Hora
+https://gosamples.dev/date-time-format-cheatsheet/
+
+Data Transfer Object (DTO) – Patrón de diseño
+https://www.oscarblancarteblog.com/2018/11/30/data-transfer-object-dto-patron-diseno/
+
+Tool to mapper dto to entities
+https://github.com/dranikpg/dto-mapper

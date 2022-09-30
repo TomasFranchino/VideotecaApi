@@ -13,6 +13,8 @@ func SeedDatabase(db *gorm.DB) {
 	// Colocar una por cada tabla creada
 
 	db.AutoMigrate(&models.Genero{})
+	db.AutoMigrate(&models.TipoDocumento{})
+	db.AutoMigrate(&models.Socio{})
 
 	fmt.Println("Database migrations completed successfully")
 }
